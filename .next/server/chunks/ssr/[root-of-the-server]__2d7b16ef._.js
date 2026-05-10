@@ -1,0 +1,3 @@
+module.exports=[33024,a=>{a.v({className:"inter_a74e9378-module__elCoYG__className",variable:"inter_a74e9378-module__elCoYG__variable"})},49575,a=>{"use strict";a.s(["default",()=>f,"metadata",()=>e],49575);var b=a.i(7997),c=a.i(33024);let d={className:c.default.className,style:{fontFamily:"'Inter', 'Inter Fallback'",fontStyle:"normal"}};null!=c.default.variable&&(d.variable=c.default.variable);let e={title:"Cyber XBot | Interactive 3D Experience",description:"Perfect 3D Interactive Web App"};function f({children:a}){return(0,b.jsx)("html",{lang:"en",children:(0,b.jsx)("body",{className:`${d.variable} font-sans antialiased`,children:a})})}}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__2d7b16ef._.js.map
