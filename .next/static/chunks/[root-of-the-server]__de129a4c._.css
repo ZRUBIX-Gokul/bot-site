@@ -197,7 +197,6 @@
     --container-lg: 32rem;
     --container-xl: 36rem;
     --container-2xl: 42rem;
-    --container-3xl: 48rem;
     --text-xs: .75rem;
     --text-xs--line-height: calc(1 / .75);
     --text-sm: .875rem;
@@ -704,11 +703,6 @@
     z-index: 50;
   }
 
-  .mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
@@ -801,10 +795,6 @@
     max-width: var(--container-2xl);
   }
 
-  .max-w-3xl {
-    max-width: var(--container-3xl);
-  }
-
   .max-w-lg {
     max-width: var(--container-lg);
   }
@@ -852,10 +842,6 @@
 
   .justify-between {
     justify-content: space-between;
-  }
-
-  .justify-center {
-    justify-content: center;
   }
 
   .justify-end {
@@ -1092,10 +1078,6 @@
     padding-left: calc(var(--spacing) * 6);
   }
 
-  .text-center {
-    text-align: center;
-  }
-
   .text-left {
     text-align: left;
   }
@@ -1229,16 +1211,6 @@
     color: var(--color-white);
   }
 
-  .text-white\/50 {
-    color: rgba(255, 255, 255, .5);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .text-white\/50 {
-      color: color-mix(in oklab, var(--color-white) 50%, transparent);
-    }
-  }
-
   .uppercase {
     text-transform: uppercase;
   }
@@ -1312,15 +1284,6 @@
       --tw-scale-x: 105%;
       --tw-scale-y: 105%;
       --tw-scale-z: 105%;
-      scale: var(--tw-scale-x) var(--tw-scale-y);
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:scale-110:hover {
-      --tw-scale-x: 110%;
-      --tw-scale-y: 110%;
-      --tw-scale-z: 110%;
       scale: var(--tw-scale-x) var(--tw-scale-y);
     }
   }
